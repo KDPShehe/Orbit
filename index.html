@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit</title>
+    <link rel="icon" type="orbit/ico" href="./Orbit_ico.ico">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header-faq">
+        <img class="header-faq-img" src="./FAQ_img.png">
+        <img class="header-faq-img-hover" src="./FAQ_img_hover.png">
+    </div>
+    <div class="overlay"></div>
+    <div class="faq-menu">
+        <p class="faq-text">Ask any question to Orbit and it will give you answer with YES or No. <br>Based on YES/NO API</p>
+        <div class="faq-bot">
+            <div class="faq-social">
+                <a href="https://github.com/KDPShehe" class="faq-text" id="text-link-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/mark-holovenko-05a001290" class="faq-text" id="text-link-linkedin" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            </div>
+            <p class="text-copy">© 2026 Orbit. All rights reserved.</p>
+        </div>
+    </div>
+    <header>
+        <div class="header-logo">
+            <div class="logo-img">
+                <img class="header-logo-img" src="./Orbit_logo.png">
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <h1 class="main-text" id="text-main">Ask your question and Orbit give answer with YES or NO</h1>
+        <div class="main-input">
+            <div class="answer">
+                <p class="main-text answer-yn"></p>
+                <div class="star answer-star" id="answer-star1"></div>
+                <div class="star answer-star" id="answer-star2"></div>
+                <div class="star answer-star" id="answer-star3"></div>
+                <div class="star answer-star" id="answer-star4"></div>
+                <div class="star answer-star" id="answer-star5"></div>
+            </div>
+            <input class="question" type="text" id="question-input" maxlength="20" placeholder="Type your question...">
+            <p class="ask">Ask Orbit</p>
+        </div>
+    </div>
+    <div class="stars"></div>
+    <div class="comets"></div>
+    <script src="main.js" defer></script>
+</body>
+</html>
