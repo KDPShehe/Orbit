@@ -366,15 +366,15 @@ header {
     z-index: 1;
 }
 /* MEDIA */
-@media (max-width: 1400px) {
+@media (max-width: 1100px) {
     html {
         font-size: 55%;
     }
     .stars {
         position: fixed;
-        width: 150vmax;
-        height: 150vmax;
-        top: 110%;
+        width: 300vmax;
+        height: 300vmax;
+        top: 140%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -409,15 +409,58 @@ header {
         top: -65%;
     }
 }
+@media (max-height: 700px) and (orientation: landscape) {
+    html {
+        font-size: 55%;
+    }
+    .stars {
+        position: fixed;
+        width: 300vmax;
+        height: 300vmax;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-faq {
+        top: 3rem;
+        right: 3rem;
+        padding: 1rem; 
+        margin: -1rem;
+    }
+    .header-faq-img {
+        height: 4rem;
+    }
+    .header-faq-img-hover {
+        height: 4rem;
+    }
+    .header-logo {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    .main {
+        margin-top: 3rem;
+        gap: 50px;
+    }
+    .main-text {
+        font-size: 3.2rem;
+        max-width: 90%;
+    }
+    .question, .ask {
+        width: 30rem;
+    }
+    .answer {
+        top: -65%;
+    }
+}
 @media (max-width: 600px) {
     html {
         font-size: 50%;
     }
     .stars {
         position: fixed;
-        width: 150vmax;
-        height: 150vmax;
-        top: 110%;
+        width: 300vmax;
+        height: 300vmax;
+        top: 140%;
     }
     .main {
         gap: 50px;
@@ -469,6 +512,12 @@ header {
     }
 }
 @media (max-width: 400px) {
+    .stars {
+        position: fixed;
+        width: 300vmax;
+        height: 300vmax;
+        top: 140%;
+    }
     .header-logo {
         margin-top: 10rem;
         margin-bottom: 0;
@@ -479,6 +528,13 @@ header {
 }
 @media (max-height: 400px) and (orientation: landscape) {
     .header-logo {
-        margin-top: 6rem;
+        margin-top: 0;
+    }
+    .header-faq {
+        top: 1rem;
+        right: 3.5rem;
+    }
+    .main-input {
+        gap: 10px;
     }
 }
