@@ -536,6 +536,9 @@ header {
     .main-input {
         gap: 10px;
     }
+    .main-text {
+        max-width: 550px;
+    }
     .answer-star.show {
         opacity: 0;
     }
