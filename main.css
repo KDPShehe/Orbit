@@ -372,8 +372,6 @@ header {
     }
     .stars {
         position: fixed;
-        width: 300vmax;
-        height: 300vmax;
         top: 140%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -415,8 +413,6 @@ header {
     }
     .stars {
         position: fixed;
-        width: 300vmax;
-        height: 300vmax;
         top: 150%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -458,8 +454,6 @@ header {
     }
     .stars {
         position: fixed;
-        width: 300vmax;
-        height: 300vmax;
         top: 140%;
     }
     .main {
@@ -518,8 +512,6 @@ header {
 @media (max-width: 400px) {
     .stars {
         position: fixed;
-        width: 300vmax;
-        height: 300vmax;
         top: 140%;
     }
     .header-logo {
@@ -532,7 +524,7 @@ header {
 }
 @media (max-height: 400px) and (orientation: landscape) {
     html {
-        font-size: 45%;
+        font-size: 47%;
     }
     .header-logo {
         margin-top: 0;
