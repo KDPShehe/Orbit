@@ -434,7 +434,7 @@ header {
         height: 4rem;
     }
     .header-logo {
-        margin-top: 10rem;
+        margin-top: 8rem;
         margin-bottom: 5rem;
     }
     .main {
@@ -464,6 +464,10 @@ header {
     }
     .main {
         gap: 50px;
+    }
+    .header-logo {
+        margin-top: 6rem;
+        margin-bottom: 5rem;
     }
     .header-logo-img {
         height: 8rem;
@@ -496,7 +500,7 @@ header {
 }
 @media (max-height: 600px) and (orientation: landscape) {
     .header-logo {
-        margin-top: 8rem;
+        margin-top: 3rem;
         margin-bottom: 2rem;
     }
     .header-logo-img {
@@ -527,14 +531,20 @@ header {
     }
 }
 @media (max-height: 400px) and (orientation: landscape) {
+    html {
+        font-size: 45%;
+    }
     .header-logo {
         margin-top: 0;
     }
     .header-faq {
-        top: 1rem;
-        right: 3.5rem;
+        top: 2rem;
+        right: 2rem;
     }
     .main-input {
         gap: 10px;
+    }
+    .answer-star.show {
+        opacity: 0;
     }
 }
