@@ -454,7 +454,7 @@ header {
     }
     .stars {
         position: fixed;
-        top: 140%;
+        top: 120%;
     }
     .main {
         gap: 50px;
@@ -500,6 +500,9 @@ header {
     .header-logo-img {
         height: 6rem;
     }
+    .main-text {
+        max-width: 550px;
+    }
     .main {
         margin-top: 1rem;
         gap: 15px;
@@ -512,7 +515,7 @@ header {
 @media (max-width: 400px) {
     .stars {
         position: fixed;
-        top: 140%;
+        top: 110%;
     }
     .header-logo {
         margin-top: 10rem;
